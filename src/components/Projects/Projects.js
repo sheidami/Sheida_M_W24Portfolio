@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
 import shop from "../../Assets/Projects/shop.png";
 import ticTakToe from "../../Assets/Projects/ticTakToe.png";
 import myBlog from "../../Assets/Projects/myBlog.png";
@@ -12,10 +11,8 @@ import ipark from "../../Assets/Projects/image.png";
 import Tilt from "react-parallax-tilt";
 import Button from "react-bootstrap/Button";
 import {
-  AiFillStar,
-  AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineUser,
+
 } from "react-icons/ai";
 
 function Projects() {
