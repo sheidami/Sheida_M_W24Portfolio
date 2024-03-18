@@ -9,4 +9,4 @@ Technologies Used
 React.js: Frontend framework for building the user interface.
 Bootstrap: CSS framework for styling and layout.
 React Router: For handling navigation within the single-page application.
-GitHub Pages: Hosting platform for deploying the portfolio website
+GitHub Pages: Hosting platform for deploying the portfolio website.
