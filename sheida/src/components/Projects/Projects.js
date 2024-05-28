@@ -8,6 +8,7 @@ import weather from "../../Assets/Projects/weather.png";
 import chatRoom from "../../Assets/Projects/chatRoom.png";
 import empMan from "../../Assets/Projects/empMan.png";
 import ipark from "../../Assets/Projects/image.png";
+import shopAPI from "../../Assets/Projects/shopAPI.png";
 import Tilt from "react-parallax-tilt";
 import Button from "react-bootstrap/Button";
 import {
@@ -26,7 +27,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+        <Col md={4} className="project-card">
             <ProjectCard
               imgPath={weather}
               isBlog={false}
@@ -35,7 +36,15 @@ function Projects() {
               ghLink="https://github.com/sheidami/project_weather"
             />
           </Col>
-
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={shopAPI}
+              isBlog={false}
+              title="ShopAPI"
+              description="ShopAPI is a web API developed with ASP.NET Core to manage product data for an online shop, using Entity Framework Core for efficient data handling. It supports CRUD operations, including retrieving all products with filtering, sorting, and pagination; fetching product details by ID; listing available products; and creating, updating, or deleting products individually or in bulk. ShopContext manages database connections, while ProductQueryParameters enables advanced search capabilities. This project highlights the use of modern web technologies for building scalable and maintainable APIs."
+              ghLink="https://github.com/sheidami/aspDotNetProject"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={empMan}
@@ -55,17 +64,6 @@ function Projects() {
               ghLink="https://github.com/sheidami/project_chat_app"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={myBlog}
-              isBlog={false}
-              title="My Blog"
-              description="My Blog is a blog website designed for readers to discover and engage with articles on various topics. It utilizes React.js for browsing and Firebase for secure login functionality. Users can interact with articles by commenting and liking, fostering a sense of community within the platform."
-              ghLink="https://github.com/sheidami/project-React-Intro"
-            />
-          </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ticTakToe}
@@ -75,14 +73,13 @@ function Projects() {
               ghLink="https://github.com/sheidami/project-tic-tak-toe"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={shop}
+              imgPath={myBlog}
               isBlog={false}
-              title="Flexi Cart"
-              description="A dynamic shopping webpage is a website that allows users to browse and purchase products online in real-time. It typically includes features such as product search, product filtering, shopping cart, and checkout functionality."
-              ghLink="https://github.com/sheidami/project-HTML-CSS"
+              title="My Blog"
+              description="My Blog is a blog website designed for readers to discover and engage with articles on various topics. It utilizes React.js for browsing and Firebase for secure login functionality. Users can interact with articles by commenting and liking, fostering a sense of community within the platform."
+              ghLink="https://github.com/sheidami/project-React-Intro"
             />
           </Col>
         </Row>
@@ -111,7 +108,7 @@ function Projects() {
 
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              <span className="purple"> IPark </span>
+              <span className="purple"> Capstone Project - IPark </span>
             </h1>
             <p className="home-about-body">
               <strong className="purple">Project Vision:</strong>

@@ -9,7 +9,7 @@ import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineUser,
+  AiOutlineTrophy,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -60,7 +60,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <AiOutlineTrophy style={{ marginBottom: "2px" }} /> Awards and Expertise
               </Nav.Link>
             </Nav.Item>
 

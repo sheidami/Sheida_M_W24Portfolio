@@ -20,19 +20,20 @@ function Home2() {
           </Col>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-            My Path to  <span className="purple"> Positive Change </span> 
+              About <span className="purple"> Me </span>
             </h1>
             <p className="home-about-body">
               As I've matured, my fascination with technology has deepened.
               Witnessing its transformative impact on society fuels my
               conviction that technology holds immense potential for positive
               change. This belief underpins my decision to pursue a career in
-              computer programming and analysis. Throughout my tenure at George
-              Brown College, I've delved into diverse facets of computer
-              programming and analysis, spanning algorithm design to software
-              testing. My exposure to these areas has solidified my commitment
-              to leveraging technology to drive innovation and address societal
-              challenges.
+              computer programming and analysis. At George Brown College, I've
+              explored various facets of computer programming and analysis, from
+              algorithm design to software testing. This experience has
+              solidified my commitment to leveraging technology to drive
+              innovation and address societal challenges. I am passionate about
+              using my skills to create positive change and am excited about the
+              opportunities that lie ahead.
             </p>
           </Col>
         </Row>
